@@ -23,19 +23,13 @@ jobs:
           repository: qmk/qmk_firmware
           submodules: recursive
 
-      - name: pwd
-        run: pwd
-
       - name: Checkout userspace
         uses: actions/checkout@v3
         with:
           path: users/${{ github.actor }}
 
-      - name: pwd2
-        run: pwd
-
-      - name: create keymap
-        run: qmk new-keymap -kb splitkb/aurora/corne -km jonavano
+      # - name: create keymap
+      #   run: qmk new-keymap -kb splitkb/aurora/corne -km jonavano
 
       - name: Build firmware
         run: qmk compile -e CONVERT_TO=liatris -kb splitkb/aurora/corne "users/${{ github.actor }}/${{ matrix.file }}"
