@@ -31,10 +31,10 @@ jobs:
       # - name: create keymap
       #   run: qmk new-keymap -kb splitkb/aurora/corne -km jonavano
 
-      # - name: Build firmware
-      #   run: qmk compile -e CONVERT_TO=liatris -kb splitkb/aurora/corne "users/${{ github.actor }}/${{ matrix.file }}"
       - name: Build firmware
-        run: qmk compile -e CONVERT_TO=liatris "users/${{ github.actor }}/${{ matrix.file }}"
+        run: qmk compile -e CONVERT_TO=liatris -kb splitkb/aurora/corne "users/${{ github.actor }}/${{ matrix.file }}"
+      # - name: Build firmware
+      #   run: qmk compile -e CONVERT_TO=liatris "users/${{ github.actor }}/${{ matrix.file }}"
 
       - name: Archive firmware
         uses: actions/upload-artifact@v3

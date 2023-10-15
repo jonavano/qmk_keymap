@@ -38,9 +38,6 @@
       "rgb_matrix": true,
       "rgblight": false
     },
-    "encoder": {
-      "enabled": true
-    },
     "rgblight": {
       "hue_steps": 8,
       "saturation_steps": 8,
