@@ -2,3 +2,4 @@
 CONVERT_TO=liatris
 
 SRC += source.c
+SRC += jonavano.c
