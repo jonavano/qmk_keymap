@@ -1,3 +1,5 @@
+void keyboard_pre_init_user(void)
+
 void keyboard_pre_init_user(void) {
   // Set our LED pin as output
   setPinOutput(24);
