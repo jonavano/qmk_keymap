@@ -18,13 +18,13 @@ jobs:
         run: git config --global --add safe.directory '*'
 
       - name: Checkout QMK
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: qmk/qmk_firmware
           submodules: recursive
 
       - name: Checkout userspace
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: users/${{ github.actor }}
 
@@ -37,7 +37,7 @@ jobs:
       #   run: qmk compile -e CONVERT_TO=liatris "users/${{ github.actor }}/${{ matrix.file }}"
 
       - name: Archive firmware
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         continue-on-error: true
         with:
           name: ${{ matrix.file }}_${{ github.actor }}
