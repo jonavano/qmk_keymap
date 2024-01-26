@@ -45,8 +45,8 @@
       "KC_LALT",
       "KC_LGUI",
       "MO(1)",
-      "KC_SPC",
-      "KC_ENT",
+      "LT(1,KC_SPC)",
+      "LT(2,KC_ENT)",
       "MO(2)",
       "KC_BSPC"
     ],
@@ -90,7 +90,7 @@
       "KC_LGUI",
       "KC_TRNS",
       "KC_SPC",
-      "KC_ENT",
+      "LT(3,KC_ENT)",
       "MO(3)",
       "KC_BSPC"
     ],
@@ -177,8 +177,8 @@
       "RGB_MOD",
       "KC_LGUI",
       "KC_TRNS",
-      "KC_SPC",
-      "KC_ENT",
+      "KC_TRNS",
+      "KC_TRNS",
       "KC_TRNS",
       "KC_RALT"
     ]
