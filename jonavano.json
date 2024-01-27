@@ -7,7 +7,7 @@
   "layout": "LAYOUT_split_3x6_3",
   "layers": [
     [
-      "KC_TAB",
+      "KC_LGUI",
       "KC_Q",
       "KC_W",
       "KC_E",
@@ -43,11 +43,11 @@
       "KC_DOT",
       "KC_SLSH",
       "KC_LALT",
-      "KC_LGUI",
-      "MO(1)",
+      "KC_TAB",
       "LT(1,KC_SPC)",
-      "LT(2,KC_ENT)",
+      "MO(1)",
       "MO(2)",
+      "LT(2,KC_ENT)",
       "KC_BSPC"
     ],
     [
@@ -87,11 +87,11 @@
       "KC_RBRC",
       "KC_PIPE",
       "KC_TILD",
-      "KC_LGUI",
+      "KC_NO",
       "KC_TRNS",
-      "KC_SPC",
-      "LT(3,KC_ENT)",
+      "KC_NO",
       "MO(3)",
+      "LT(3,KC_ENT)",
       "KC_BSPC"
     ],
     [
@@ -132,8 +132,8 @@
       "KC_CALC",
       "KC_LALT",
       "LAG(KC_LEFT)",
-      "MO(3)",
       "LAG(KC_RGHT)",
+      "MO(3)",
       "KC_ENT",
       "KC_TRNS",
       "KC_BSPC"
@@ -175,12 +175,12 @@
       "KC_NO",
       "KC_NO",
       "RGB_MOD",
-      "KC_LGUI",
+      "KC_NO",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
       "KC_TRNS",
-      "KC_RALT"
+      "KC_NO"
     ]
   ],
   "author": ""
